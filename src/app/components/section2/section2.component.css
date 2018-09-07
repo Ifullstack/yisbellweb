@@ -1,0 +1,54 @@
+#item {
+    float: right;
+}
+
+#item a h1 {
+    font-weight: 700;
+    color: white;
+}
+
+.item a h1 {
+    font-weight: 700;
+    color: white;
+    text-shadow: 50px black;
+}
+
+#clase {
+    background-color: red;
+    width: 200px;
+    cursor: pointer;
+}
+
+#claseKids {
+    background-color: red;
+    width: 150px;
+    cursor: pointer;
+}
+
+#claseJov {
+    background-color: red;
+    width: 220px;
+    cursor: pointer;
+}
+
+#claseJov:active {
+    border-color: red;
+}
+
+#claseKids h1 {
+    color: white;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+#clase h1 {
+    color: white;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+#claseJov h1 {
+    color: white;
+    font-weight: 700;
+    padding-left: 10px;
+}

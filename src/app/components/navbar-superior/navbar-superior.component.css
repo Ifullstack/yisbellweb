@@ -1,0 +1,13 @@
+small {
+    color: grey;
+}
+
+#navbar {
+    background-color: black;
+    position: fixed;
+}
+
+#cabecera {
+    margin-left: -10px;
+    margin-right: 70px;
+}

@@ -1,0 +1,57 @@
+#section {
+    background-color: black;
+    margin-top: -15px;
+}
+
+#caja {
+    background-color: rgb(211, 60, 60);
+}
+
+#header {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+#small {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#salas {
+    width: 100%;
+    height: 320px;
+    margin-top: -70px;
+}
+
+#left {
+    float: right;
+    margin-bottom: 50px;
+}
+
+#right {
+    margin-top: -65px;
+    background-color: black;
+    height: 280px;
+}
+
+#right aside h4 {
+    color: red;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#right aside ul li a {
+    color: white;
+    font-weight: 500;
+}
+
+#right aside ul li a:hover {
+    color: red;
+    cursor: pointer;
+}
+
+#right .second ul li a:hover {
+    color: white;
+}

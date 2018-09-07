@@ -1,0 +1,161 @@
+<div id="section">
+    <!--================Blog Area =================-->
+    <h1 id="header" class="text-center">
+        <small id="small" class="text-muted">Alquila al mejor precio</small>
+        <br> ALQUILER DE SALAS
+    </h1>
+    <section class="blog_area p_120">
+        <div class="container-fluid">
+            <div class="row">
+                <div id="left" class="col-lg-7">
+                    <div class="blog_left_sidebar">
+                        <article class="blog_style1">
+                            <div class="blog_img">
+                                <img *ngIf="sala1" id="salas" class="img-fluid animated fadeInUp" src="assets/img/sala1.jpg" alt="">
+                                <img *ngIf="sala2" id="salas" class="img-fluid animated fadeInUp" src="assets/img/sala2.jpg" alt="">
+                                <img *ngIf="sala3" id="salas" class="img-fluid animated fadeInUp" src="assets/img/sala3.jpg" alt="">
+                                <img *ngIf="sala4" id="salas" class="img-fluid animated fadeInUp" src="assets/img/sala4.jpg" alt="">
+                                <img *ngIf="sala5" id="salas" class="img-fluid animated fadeInUp" src="assets/img/sala5.jpg" alt="">
+                            </div>
+                            <div class="blog_text text-white">
+                                <div id="caja" class="blog_text_inner">
+
+                                    <a *ngIf="sala1">
+                                        <h4 class="text-white" style="font-weight: 700;">Sala 1 (Clásico - Contemporáneo)</h4>
+                                    </a>
+                                    <a *ngIf="sala2">
+                                        <h4 class="text-white" style="font-weight: 700;">Sala 2 (Ballet - FunkyJazz)</h4>
+                                    </a>
+                                    <a *ngIf="sala3">
+                                        <h4 class="text-white" style="font-weight: 700;">Sala 3 (Hip Hop - Clásico Adulto)</h4>
+                                    </a>
+                                    <a *ngIf="sala4">
+                                        <h4 class="text-white" style="font-weight: 700;">Sala 4 (Clases particulares)</h4>
+                                    </a>
+                                    <a *ngIf="sala5">
+                                        <h4 class="text-white" style="font-weight: 700;">Sala 5 (Claqué - New Style)</h4>
+                                    </a>
+                                    <p class="text-white">Todas nuestras salas en alquiler en Barcelona están equipadas con grandes ventanales, pudiéndose desarrollar la actividad con luz natural. Parket, espejos, aire acondicionado, calefacción, equipos de sonido Hi-Fi, barras
+                                        de clásico, y una de ellas con piano.</p>
+                                    <div class="date">
+                                        <a class="text-white" *ngIf="sala1"><i class="text-white fa fa-home animated fadeInUp" aria-hidden="true"></i>Sala de 40 m2 ampliable a 80 m2</a>
+                                        <a class="text-white" *ngIf="sala2"><i class="text-white fa fa-home animated fadeInUp" aria-hidden="true"></i>Sala de 80 m2</a>
+                                        <a class="text-white" *ngIf="sala3"><i class="text-white fa fa-home animated fadeInUp" aria-hidden="true"></i>Sala de 60 m2 ampliable a 100 m2 ó 160 m2</a>
+                                        <a class="text-white" *ngIf="sala4"><i class="text-white fa fa-home animated fadeInUp" aria-hidden="true"></i>Sala con piano de 40 m2</a>
+                                        <a class="text-white" *ngIf="sala5"><i class="text-white fa fa-home animated fadeInUp" aria-hidden="true"></i>Sala de 60 m2</a>
+                                        <a class="text-white"><i class="fa fa-map-pin text-white" aria-hidden="true"></i>Ubicación Via Augusta, 319 08017 Barcelona
+                                      </a>
+                                        <br><br>
+                                        <button type="button" href="https://goo.gl/maps/sEZobJEj4gT2" class="btn btn-light btn-sm" target="blank">Como llegar</button> &nbsp;
+                                        <button type="button" class="btn btn-outline-light btn-sm" target="blank">Contáctanos</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+                <div id="right" class="col-lg-5">
+
+                    <aside class="single_sidebar_widget post_category_widget">
+                        <h4 class="widget_title">Alquiler de Salas en Barcelona</h4>
+                        <ul class="list cat-list">
+                            <li (click)="verSala1()">
+                                <a class="d-flex justify-content-between">
+                                    <p>Sala 1 (Clásico - Contemporáneo)</p>
+                                </a>
+                            </li>
+                            <li (click)="verSala2()">
+                                <a class="d-flex justify-content-between">
+                                    <p>Sala 2 (Ballet - FunkyJazz)</p>
+                                </a>
+                            </li>
+                            <li (click)="verSala3()">
+                                <a class="d-flex justify-content-between">
+                                    <p>Sala 3 (Hip Hop - Clásico Adulto)</p>
+                                </a>
+                            </li>
+                            <li (click)="verSala4()">
+                                <a class="d-flex justify-content-between">
+                                    <p>Sala 4 (Clases Particulares)</p>
+                                </a>
+                            </li>
+                            <li (click)="verSala5()">
+                                <a class="d-flex justify-content-between">
+                                    <p>Sala 5 (Claqué - New Style)</p>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </aside>
+                    <aside class="single_sidebar_widget post_category_widget second">
+                        <h4 class="widget_title">Equipamiento de las Salas en Alquiler</h4>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-6">
+                                    <ul class="list cat-list">
+                                        <li>
+                                            <a class="d-flex justify-content-between">
+                                                <p>Luz Natural y Artificial</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="d-flex justify-content-between">
+                                                <p>Espejos</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="d-flex justify-content-between">
+                                                <p>Barras de Danza</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="d-flex justify-content-between">
+                                                <p>Conexión a Internet por WIFI</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="d-flex justify-content-between">
+                                                <p>Suelos de Parquet</p>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul class="list cat-list">
+                                        <li>
+                                            <a class="d-flex justify-content-between">
+                                                <p>Piano</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="d-flex justify-content-between">
+                                                <p>Aire acondicionado (Bomba de calor y frío)</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="d-flex justify-content-between">
+                                                <p>Equipos de Audio HI-FI con CD, conexión para iPad, iPhone, USB</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="d-flex justify-content-between">
+                                                <p>Cómodos Vestuarios</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="d-flex justify-content-between">
+                                                <p>Sillas para tomar apuntes</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

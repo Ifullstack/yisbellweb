@@ -1,0 +1,113 @@
+#dancer {
+    width: 400px;
+    height: 600px;
+}
+
+#header {
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#small {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#subtitulo {
+    font-weight: 900;
+    color: red;
+}
+
+
+/*-------------*/
+
+#section2 {
+    height: 700px;
+    width: 100%;
+}
+
+#row {
+    height: 500px;
+    width: 100%;
+}
+
+#col {
+    width: 100%;
+    z-index: -1;
+}
+
+#card {
+    width: 100%;
+}
+
+#text1 {
+    margin-top: 250px;
+}
+
+#text1 h1 {
+    font-weight: 700;
+}
+#text2 {
+  margin-top: 250px;
+  margin-left:20px;
+}
+
+#text2 h1 {
+  font-weight: 700;
+}
+
+
+
+#claseJov {
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#claseJov h1 {
+    color: white;
+    font-weight: 700;
+    padding-left: 10px;
+}
+#btn1{
+  margin-right:-50px;
+  margin-left:50px;
+  cursor:pointer;
+}
+#btn2{
+    margin-left:-30px;
+    cursor:pointer;
+}
+#btn3{
+  margin-left:90px;
+  cursor:pointer;
+}
+#btn4{
+  margin-left:-90px;
+  cursor:pointer;
+}
+#left {
+    height: 699px;
+    width: 105%;
+    margin-left: -10px;
+}
+
+.card-img {
+    height: 699px;
+    width: 105%;
+}
+
+#centroContainer {
+    background-color: red;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    margin-top: -450px;
+    margin-left: 540px;
+}
+
+#centroContainer h6 {
+    margin-top: 100px;
+}

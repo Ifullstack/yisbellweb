@@ -1,0 +1,42 @@
+<nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light bg-light animated fadeInUp">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+    </button>
+    <a id="cabecera" class="navbar-brand text-left animated zoomIn " href="#"><strong id="header">Yisbell Dance</strong><br><small><small class="text-muted">Academia de Baile - Ballet Clásico - Danza Contemporánea</small></small></a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto" routerLinkActive="active">
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/home']">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/equipo']">Equipo</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/galeria']">Galería</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/blog']">Blog</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/contacto']">Contacto</a>
+            </li>
+        </ul>
+        <button href="" id="matriculate" type="button" class="btn btn-danger my-2 my-lg-0 animated fadeInRight">Matricúlate</button>
+        <div id="redes" class="form-inline my-1 my-sm-0">
+            <a class="navbar-brand" href="#">
+                <i class="fab fa-facebook-f fa-xs"></i>
+            </a>
+            <a class="navbar-brand" href="#">
+                <i class="fab fa-google fa-xs"></i>
+            </a>
+            <a class="navbar-brand" href="#">
+                <i class="fab fa-linkedin-in fa-xs"></i>
+            </a>
+            <a class="navbar-brand" href="#">
+                <i class="fab fa-twitter fa-xs"></i>
+            </a>
+        </div>
+    </div>
+</nav>

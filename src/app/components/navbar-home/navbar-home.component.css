@@ -1,0 +1,22 @@
+ul li a {
+    color: black;
+    font-weight: 600;
+    font-size: 120%;
+}
+
+ul li a:hover {
+    color: red;
+}
+
+#cabecera {
+    margin-left: -10px;
+    margin-right: 70px;
+}
+
+#matriculate {
+    margin-right: 70px;
+}
+
+#header {
+    color: red;
+}

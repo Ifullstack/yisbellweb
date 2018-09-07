@@ -1,0 +1,17 @@
+#header {
+    color: red;
+}
+
+#cabecera {
+    font-weight: 600;
+}
+
+.col-6 h4 {
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.col-6 h6:hover {
+    color: red;
+    cursor: pointer;
+}
