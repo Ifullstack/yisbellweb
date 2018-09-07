@@ -1,5 +1,5 @@
 #header {
-    color: red;
+    color: #f02c60;
 }
 
 #cabecera {
@@ -12,6 +12,6 @@
 }
 
 .col-6 h6:hover {
-    color: red;
+    color: #f02c60;
     cursor: pointer;
 }

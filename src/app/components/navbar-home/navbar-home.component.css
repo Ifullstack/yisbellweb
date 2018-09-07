@@ -5,7 +5,7 @@ ul li a {
 }
 
 ul li a:hover {
-    color: red;
+    color: #f02c60;
 }
 
 #cabecera {
@@ -18,5 +18,5 @@ ul li a:hover {
 }
 
 #header {
-    color: red;
+    color: #f02c60;
 }

@@ -14,25 +14,25 @@
 }
 
 #clase {
-    background-color: red;
+    background-color: #f02c60;
     width: 200px;
     cursor: pointer;
 }
 
 #claseKids {
-    background-color: red;
+    background-color: #f02c60;
     width: 150px;
     cursor: pointer;
 }
 
 #claseJov {
-    background-color: red;
+    background-color: #f02c60;
     width: 220px;
     cursor: pointer;
 }
 
 #claseJov:active {
-    border-color: red;
+    background-color: #f02c60;
 }
 
 #claseKids h1 {

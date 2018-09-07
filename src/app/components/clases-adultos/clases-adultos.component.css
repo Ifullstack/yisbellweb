@@ -16,7 +16,7 @@ button {
 #close {
     margin-right: 10px;
     margin-top: 10px;
-    color: red;
+    color: #f02c60;
 }
 
 #close2 {
@@ -28,7 +28,7 @@ button {
     margin-left: 120px;
     margin-bottom: 10px;
     font-weight: 700;
-    color: red;
+    color: #f02c60;
 }
 
 .modal {
@@ -44,7 +44,7 @@ button {
 .modal-header h5 {
     font-weight: 700;
     text-align: center;
-    color: red;
+    color: #f02c60;
 }
 
 #modalImg1 {

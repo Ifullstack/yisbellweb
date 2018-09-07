@@ -4,7 +4,7 @@
 }
 
 #caja {
-    background-color: rgb(211, 60, 60);
+    background-color: #f02c60;
 }
 
 #header {
@@ -37,7 +37,7 @@
 }
 
 #right aside h4 {
-    color: red;
+    color: #f02c60;
     font-weight: 600;
     font-size: 30px;
 }
@@ -48,7 +48,7 @@
 }
 
 #right aside ul li a:hover {
-    color: red;
+    color: #f02c60;
     cursor: pointer;
 }
 

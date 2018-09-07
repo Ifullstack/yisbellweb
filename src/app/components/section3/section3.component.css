@@ -16,7 +16,7 @@
 
 #subtitulo {
     font-weight: 900;
-    color: red;
+    color: #f02c60;
 }
 
 
@@ -48,19 +48,18 @@
 #text1 h1 {
     font-weight: 700;
 }
+
 #text2 {
-  margin-top: 250px;
-  margin-left:20px;
+    margin-top: 250px;
+    margin-left: 20px;
 }
 
 #text2 h1 {
-  font-weight: 700;
+    font-weight: 700;
 }
 
-
-
 #claseJov {
-    background-color: red;
+    background-color: #f02c60;
     width: 200px;
     height: 50px;
     cursor: pointer;
@@ -71,23 +70,28 @@
     font-weight: 700;
     padding-left: 10px;
 }
-#btn1{
-  margin-right:-50px;
-  margin-left:50px;
-  cursor:pointer;
+
+#btn1 {
+    margin-right: -50px;
+    margin-left: 50px;
+    cursor: pointer;
 }
-#btn2{
-    margin-left:-30px;
-    cursor:pointer;
+
+#btn2 {
+    margin-left: -30px;
+    cursor: pointer;
 }
-#btn3{
-  margin-left:90px;
-  cursor:pointer;
+
+#btn3 {
+    margin-left: 90px;
+    cursor: pointer;
 }
-#btn4{
-  margin-left:-90px;
-  cursor:pointer;
+
+#btn4 {
+    margin-left: -90px;
+    cursor: pointer;
 }
+
 #left {
     height: 699px;
     width: 105%;
@@ -100,7 +104,7 @@
 }
 
 #centroContainer {
-    background-color: red;
+    background-color: #f02c60;
     width: 250px;
     height: 250px;
     position: relative;
